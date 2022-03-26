@@ -23,3 +23,14 @@ default:
 	fmt.Println("None 2")
 }
 
+switch {
+case 20 > 21:
+	fmt.Println("20>21")
+case 10 > 1:
+	break
+case 20 > 10:
+	fmt.Println("20>10")
+default:
+	fmt.Println("None")
+}
+
